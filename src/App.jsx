@@ -1,15 +1,10 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-
 import "./App.css";
+import Layout from "./pages/Layout";
 
 function App() {
   return (
     <>
-      <Button>Click me</Button>
-      <Input />
-      <label htmlFor="ttmtmm">just</label>
-      <Input />
+      <Layout />
     </>
   );
 }
